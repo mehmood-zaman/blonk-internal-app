@@ -1,0 +1,39 @@
+@import '../../../assets/scss/variables';
+
+// page-title
+.page-title-box {
+  padding: 20px 0px;
+  .page-title {
+    font-size: 18px;
+    margin: 0;
+    line-height: 30px;
+  }
+  .breadcrumb {
+    padding: 4px 0;
+    background-color: transparent;
+    margin-bottom: 0;
+    a {
+      color: $dark;
+      &:hover {
+        color: rgba($dark, 0.9);
+      }
+    }
+    .active {
+      color: rgba($dark, 0.7);
+    }
+  }
+  .state-information {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .state-information .state-graph {
+    float: right;
+    margin-left: 40px;
+    text-align: center;
+  }
+  .state-information .state-graph .info {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

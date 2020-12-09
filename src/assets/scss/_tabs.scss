@@ -1,0 +1,61 @@
+/* =============
+   Tabs & Accordions
+============= */
+
+.nav-tabs,
+.nav-pills {
+  .nav-link {
+    color: $dark;
+    font-weight: 500;
+  }
+}
+
+.nav-tabs-custom {
+  border-bottom: 2px solid #ddd;
+
+  .nav-link {
+    border: none !important;
+    font-weight: 500;
+    color: $amber;
+    position: relative;
+
+    &:after {
+      content: '';
+      background: $primary;
+      height: 2px;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: -1px;
+      transition: all 250ms ease 0s;
+      transform: scale(0);
+    }
+
+    &:hover {
+      color: $primary;
+    }
+
+    &.active {
+      color: $primary !important;
+
+      &:after {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.tab-content {
+  padding-top: 1rem;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: $primary;
+}
+
+#accordion {
+  .card-header {
+    border-bottom: 1px solid rgba($dark, 0.05);
+  }
+}

@@ -1,0 +1,39 @@
+@import '../../../../../assets/scss/variables';
+
+.profile-dropdown {
+  .dropdown-toggle {
+    &:after {
+      display: none !important;
+      border: none;
+      margin: 0;
+    }
+    .nav-user {
+      img {
+        height: 36px;
+        width: 36px;
+      }
+    }
+  }
+  .dropdown-menu {
+    &.show {
+      position: absolute;
+      transform: translate3d(-145px, 54px, 0px);
+      top: 0px;
+      left: 0px;
+      will-change: transform;
+      width: 190px;
+      padding: 0;
+    }
+    .dropdown-item {
+      i {
+        font-size: 17px;
+        vertical-align: middle;
+        margin-right: 5px;
+        color: $gray-500;
+      }
+      span {
+        vertical-align: middle;
+      }
+    }
+  }
+}

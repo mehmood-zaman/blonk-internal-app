@@ -1,0 +1,106 @@
+//Badge
+
+.ant-badge {
+  &.burgundy {
+    .ant-badge-count {
+      background-color: $burgundy;
+      color: $white;
+    }
+  }
+}
+
+.badge {
+  font-weight: 500;
+}
+.badge {
+  display: inline-block;
+  padding: 0.45em 0.4em;
+  font-size: 70%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.badge-pill {
+  padding-right: 1em !important;
+  padding-left: 1em !important;
+  border-radius: 10rem;
+}
+.badge-primary {
+  background-color: $primary;
+}
+
+.badge-secondary {
+  background-color: $secondary;
+}
+
+.badge-success {
+  background-color: $success;
+}
+
+.badge-info {
+  background-color: $info;
+}
+
+.badge-warning {
+  background-color: $warning;
+  color: $white;
+}
+
+.badge-danger {
+  background-color: $danger;
+}
+
+.badge-dark {
+  background-color: $dark;
+}
+
+.badge-teal,
+.badge-active,
+.badge-complete {
+  background-color: $teal !important;
+  color: $white;
+}
+
+.badge-navy {
+  background-color: $navy !important;
+  color: $white;
+}
+
+.badge-amber,
+.badge-pending,
+.badge-archive {
+  background-color: $amber !important;
+  color: $white;
+}
+
+.badge-brand {
+  background-color: $brand-color !important;
+  color: $white;
+}
+
+.badge-burgundy,
+.badge-delete,
+.badge-incomplete {
+  background-color: $burgundy !important;
+  color: $white;
+}
+
+.badge-light {
+  color: #313131;
+  background-color: #dcdcdc;
+}
+
+.badge-outlined-primary {
+  background: transparent;
+  border: 1px solid $primary;
+}
+
+.badge-primary-dark {
+  background: darken($primary, 10%);
+}

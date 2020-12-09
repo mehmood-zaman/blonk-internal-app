@@ -1,0 +1,54 @@
+@import '../../../../../assets/scss/variables';
+
+.noti-icon {
+  font-size: 20px;
+  vertical-align: middle;
+  color: $dark;
+}
+
+.notification-dropdown {
+  .notify-item {
+    padding: 10px 20px;
+    &.active {
+      background-color: #f8f9fa;
+    }
+    .notify-icon {
+      float: left;
+      height: 36px;
+      width: 36px;
+      text-align: center;
+      margin-right: 10px;
+      border-radius: 50%;
+      color: $dark;
+      i {
+        height: 32px;
+        width: 32px;
+        background-color: $white;
+        border-radius: 50%;
+        line-height: 30px;
+        margin-top: 2px;
+      }
+    }
+    .notify-details {
+      margin-bottom: 0;
+      overflow: hidden;
+      margin-left: 45px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: 500;
+      span {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+  }
+  .profile-dropdown {
+    .notify-item {
+      padding: 4px 20px;
+    }
+  }
+}

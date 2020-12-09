@@ -1,0 +1,31 @@
+# overwrite: true
+# schema: 'http://138.197.207.41:9001/graphql'
+# documents:
+#   - src/gra'phql/queries/*.graphql'
+#   - 'src/graphql/queries/backoffice/*.graphql'
+#   - 'src/graphql/queries/mobilemarketing/*.graphql'
+#   - 'src/graphql/queries/crawlcomposer/*.graphql'
+# generates:
+#   src/graphql/generated/graphql.tsx:
+#     plugins:
+#       - 'typescript'
+#       - 'typescript-operations'
+#       - 'typescript-react-apollo'
+# config:
+#   withHOC: false
+#   withComponent: false
+#   withHooks: true
+
+overwrite: true
+schema: 'http://138.197.207.41:9001/graphql'
+documents: 'src/graphql/queries/*.graphql'
+generates:
+  src/graphql/generated/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+    config:
+      withHOC: false
+      withComponent: false
+      withHooks: true

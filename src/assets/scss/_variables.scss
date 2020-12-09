@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+// Color variables
+$white: #ffffff;
+
+$primary: #2e4a79; // #7a6fbe;
+$secondary: #060b28;
+$teal: #1e97a2;
+$navy: #20124d;
+$burgundy: #990000;
+$amber: darken(#dab238, 10%);
+
+// $primary:darken( #dab238, 10%); // #7a6fbe;
+// $secondary: darken( #dab238, 40%);
+// $teal: #2e4a79 ;
+// $navy: #20124d;
+// $burgundy:#1e97a2;
+// $amber: #990000;
+
+$success: #58db83;
+$info: #1570ee; //#29bbe3;
+$warning: #f5b225;
+$danger: #ec536c;
+$dark: $secondary; //#004d40; //#2a3142;
+$muted: #707070;
+
+//Blonk
+$brand-color: #012653;
+
+// Gray Colors
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$bg-body: #f5f7f9;
+$left-bar: #2b3a4a;
+
+// $left-bar: 'background: linear-gradient(to bottom,#1e49ff 0,#1a237e 100%);';
+
+$font-family: 'Poppins', sans-serif;
+$brand-font-family: 'Lato', sans-serif;
+
+$shadow: 0 -3px 31px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+
+$base-font: 13px;
+
+// Width variables
+$width: 100%;
+
+// Height variables
+$height: 100%;
+
+$leftbar-menu-color: #8699ad;
+$leftbar-menu-hover-color: #ffffff;
+$leftbar-menu-active-color: #ffffff;

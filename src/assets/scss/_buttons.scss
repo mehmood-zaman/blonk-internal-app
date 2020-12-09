@@ -1,0 +1,357 @@
+/* ==============
+  Buttons
+===================*/
+a {
+  &.ant-btn {
+    line-height: normal;
+    padding: 0.5rem 1.5rem;
+  }
+}
+.ant-btn-round {
+  height: 38px;
+  padding: 4px 22px;
+  font-size: $base-font;
+  border-radius: 32px;
+}
+
+.ant-btn-round {
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+}
+
+.ant-btn-circle {
+  line-height: 1 !important;
+}
+
+.ant-btn-top-right-round {
+  border-top-right-radius: 1rem;
+}
+
+.ant-btn-bottom-right-round {
+  border-bottom-right-radius: 1rem;
+}
+.ant-btn-top-left-round {
+  border-top-left-radius: 1rem;
+}
+
+.ant-btn-bottom-left-round {
+  border-bottom-left-radius: 1rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+.ant-btn-sm {
+  font-size: ($base-font / 1.2);
+}
+
+.ant-btn-lg {
+  font-size: ($base-font * 1.2);
+}
+
+.ant-btn-primary,
+.ant-btn-success,
+.ant-btn-info,
+.ant-btn-warning,
+.ant-btn-danger,
+.ant-btn-dark,
+.ant-btn-pink,
+.ant-btn-purple,
+.ant-btn-indigo,
+.ant-btn-teal,
+.ant-btn-lime,
+.ant-btn-orange,
+.ant-btn-brown,
+.ant-btn-blue-grey {
+  color: $white;
+}
+
+.ant-btn-primary {
+  background-color: $primary;
+  border: 1px solid $primary;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus,
+.ant-btn-primary:active,
+.ant-btn-primary.active,
+.ant-btn-primary.focus,
+.ant-btn-primary:active,
+.ant-btn-primary:focus,
+.ant-btn-primary:hover,
+.open > .dropdown-toggle.ant-btn-primary,
+.ant-btn-outline-primary.active,
+.ant-btn-outline-primary:active,
+.show > .ant-btn-outline-primary.dropdown-toggle,
+.ant-btn-outline-primary:hover,
+.ant-btn-primary.active,
+.ant-btn-primary:active,
+.show > .ant-btn-primary.dropdown-toggle,
+.ant-btn-primary:not(:disabled):not(.disabled).active,
+.ant-btn-primary:not(:disabled):not(.disabled):active,
+.show > .ant-btn-primary.dropdown-toggle {
+  background-color: darken($primary, 5%);
+  border: 1px solid darken($primary, 5%);
+}
+
+.ant-btn-success {
+  background-color: $success;
+  border: 1px solid $success;
+}
+.ant-btn-success:hover,
+.ant-btn-success:focus,
+.ant-btn-success:active,
+.ant-btn-success.active,
+.ant-btn-success.focus,
+.ant-btn-success:active,
+.ant-btn-success:focus,
+.ant-btn-success:hover,
+.open > .dropdown-toggle.ant-btn-success,
+.ant-btn-outline-success.active,
+.ant-btn-outline-success:active,
+.show > .ant-btn-outline-success.dropdown-toggle,
+.ant-btn-outline-success:hover,
+.ant-btn-success.active,
+.ant-btn-success:active,
+.show > .ant-btn-success.dropdown-toggle,
+.ant-btn-success:not(:disabled):not(.disabled).active:focus,
+.ant-btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .ant-btn-success.dropdown-toggle:focus {
+  background-color: darken($success, 5%);
+  border: 1px solid darken($success, 5%);
+}
+
+.ant-btn-success.focus,
+.ant-btn-success:focus,
+.ant-btn-outline-success.focus,
+.ant-btn-outline-success:focus,
+.ant-btn-success:not(:disabled):not(.disabled).active:focus,
+.ant-btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .ant-btn-success.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($success, 0.3);
+  box-shadow: 0 0 0 2px rgba($success, 0.3);
+}
+
+.ant-btn-info {
+  background-color: $info;
+  border: 1px solid $info;
+}
+
+.ant-btn-info:hover,
+.ant-btn-info:focus,
+.ant-btn-info:active,
+.ant-btn-info.active,
+.ant-btn-info.focus,
+.ant-btn-info:active,
+.ant-btn-info:focus,
+.ant-btn-info:hover,
+.open > .dropdown-toggle.ant-btn-info,
+.ant-btn-outline-info.active,
+.ant-btn-outline-info:active,
+.show > .ant-btn-outline-info.dropdown-toggle,
+.ant-btn-outline-info:hover,
+.ant-btn-info.active,
+.ant-btn-info:active,
+.show > .ant-btn-info.dropdown-toggle,
+.ant-btn-info:not(:disabled):not(.disabled).active,
+.ant-btn-info:not(:disabled):not(.disabled):active,
+.show > .ant-btn-info.dropdown-toggle {
+  background-color: darken($info, 5%);
+  border: 1px solid darken($info, 5%);
+}
+
+.ant-btn-warning {
+  background-color: $warning;
+  border: 1px solid $warning;
+}
+.ant-btn-warning:hover,
+.ant-btn-warning:focus,
+.ant-btn-warning:active,
+.ant-btn-warning.active,
+.ant-btn-warning.focus,
+.ant-btn-warning:active,
+.ant-btn-warning:focus,
+.ant-btn-warning:hover,
+.open > .dropdown-toggle.ant-btn-warning,
+.ant-btn-outline-warning.active,
+.ant-btn-outline-warning:active,
+.show > .ant-btn-outline-warning.dropdown-toggle,
+.ant-btn-outline-warning:hover,
+.ant-btn-warning.active,
+.ant-btn-warning:active,
+.show > .ant-btn-warning.dropdown-toggle,
+.ant-btn-warning:not(:disabled):not(.disabled).active,
+.ant-btn-warning:not(:disabled):not(.disabled):active,
+.show > .ant-btn-warning.dropdown-toggle {
+  background-color: darken($warning, 5%);
+  border: 1px solid darken($warning, 5%);
+  color: $white;
+}
+
+.ant-btn-danger {
+  background-color: $danger;
+  border: 1px solid $danger;
+}
+.ant-btn-danger:active,
+.ant-btn-danger:focus,
+.ant-btn-danger:hover,
+.ant-btn-danger.active,
+.ant-btn-danger.focus,
+.ant-btn-danger:active,
+.ant-btn-danger:focus,
+.ant-btn-danger:hover,
+.open > .dropdown-toggle.ant-btn-danger,
+.ant-btn-outline-danger.active,
+.ant-btn-outline-danger:active,
+.show > .ant-btn-outline-danger.dropdown-toggle,
+.ant-btn-outline-danger:hover,
+.ant-btn-danger.active,
+.ant-btn-danger:active,
+.show > .ant-btn-danger.dropdown-toggle,
+.ant-btn-danger:not(:disabled):not(.disabled).active,
+.ant-btn-danger:not(:disabled):not(.disabled):active,
+.show > .ant-btn-danger.dropdown-toggle {
+  background-color: darken($danger, 5%);
+  border: 1px solid darken($danger, 5%);
+}
+
+.ant-btn-dark {
+  background-color: $dark;
+  border: 1px solid $dark;
+  color: $white;
+}
+.ant-btn-dark:hover,
+.ant-btn-dark:focus,
+.ant-btn-dark:active,
+.ant-btn-dark.active,
+.ant-btn-dark.focus,
+.ant-btn-dark:active,
+.ant-btn-dark:focus,
+.ant-btn-dark:hover,
+.open > .dropdown-toggle.ant-btn-dark,
+.ant-btn-outline-dark.active,
+.ant-btn-outline-dark:active,
+.show > .ant-btn-outline-dark.dropdown-toggle,
+.ant-btn-outline-dark:hover {
+  background-color: darken($dark, 5%);
+  border: 1px solid darken($dark, 5%);
+  color: $white;
+}
+
+.ant-btn-link {
+  color: $dark;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+/* button Outline */
+.ant-btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+}
+.ant-btn-outline-success {
+  color: $success;
+  border-color: $success;
+}
+.ant-btn-outline-info {
+  color: $info;
+  border-color: $info;
+}
+.ant-btn-outline-warning {
+  color: $warning;
+  border-color: $warning;
+}
+.ant-btn-outline-danger {
+  color: $danger;
+  border-color: $danger;
+}
+
+.ant-btn-outline-dark {
+  color: $dark;
+  background-image: none;
+  background-color: transparent;
+  border-color: $dark;
+}
+
+// custom btns
+
+.ant-btn-light {
+  border-color: $gray-400 !important;
+}
+
+.ant-btn-teal-light {
+  background: $teal;
+  border-color: $teal;
+  color: $white;
+
+  &:active,
+  &:focus,
+  &:hover,
+  &.active {
+    background-color: darken($teal, 5%);
+    border: 1px solid darken($teal, 5%);
+    color: $white;
+  }
+}
+
+.ant-btn-teal {
+  background: darken($teal, 5%);
+  border-color: darken($teal, 5%);
+  color: $white;
+
+  &:active,
+  &:focus,
+  &:hover,
+  &.active {
+    background-color: darken($teal, 15%);
+    border: 1px solid darken($teal, 15%);
+    color: $white;
+  }
+}
+
+.ant-btn-burgundy {
+  background: $burgundy;
+  border-color: $burgundy;
+  color: $white;
+
+  &:active,
+  &:focus,
+  &:hover,
+  &.active {
+    background-color: darken($burgundy, 5%);
+    border: 1px solid darken($burgundy, 5%);
+    color: $white;
+  }
+}
+
+.ant-btn-navy {
+  background: $navy;
+  border-color: $navy;
+  color: $white;
+
+  &:active,
+  &:focus,
+  &:hover,
+  &.active {
+    background-color: darken($navy, 5%);
+    border: 1px solid darken($navy, 5%);
+    color: $white;
+  }
+}
+
+.ant-btn-amber {
+  background: $amber;
+  border-color: $amber;
+  color: $white;
+
+  &:active,
+  &:focus,
+  &:hover,
+  &.active {
+    background-color: darken($amber, 5%);
+    border: 1px solid darken($amber, 5%);
+    color: $white;
+  }
+}
